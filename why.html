@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	    <title>...Why?</title>
+
+	    <!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/general.css">
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	</head>
+	<body class="item">
+		<nav class="navbar navbar-inverse navbar-fixed-top"></nav>
+		<div class="container itempage" style="padding-top:50px">
+			<h1>...Why?<br/><small>No, really, why?</small></h1>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+			    <ol class="carousel-indicators">
+			        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    </ol>
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner" role="listbox">
+			        <div class="item active">
+			            <img src="images/Why/Why1.jpg">
+			            <div class="carousel-caption">
+			            	<h2>Nori Shape Cutter</h2>
+			            </div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Why/Why2.jpg">
+			            <div class="carousel-caption">
+			            	<h2>Rice Ball Shaker</h2>
+			            </div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Why/Why3.jpg">
+			            <div class="carousel-caption">
+			            	<h2>Bathtub Boots</h2>
+			            </div>
+			        </div>
+			        <div class="item">
+			            <img src="images/Why/Why4.jpg">
+			            <div class="carousel-caption">
+			            	<h2>Glasses Stand</h2>
+			            </div>
+			        </div>
+			    </div>
+			    <!-- Controls -->
+			    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			    </a>
+			    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			    </a>
+			</div>
+			<h3>Nori Shape Cutter &amp; Rice Ball Shaker</h3>
+			<p>If you had a need for very specifically shaped rice balls and nori shapes, then these two are the tools for you.</p>
+
+			<h3>Bathtub Boots</h3>
+			<p>We guess these are nice if you don't want to wash your feet (not that it stops water from getting in). These should be tested during snowy weather to see if they keep socks dry.</p>
+
+			<h3>Glasses Stand</h3>
+			<p>Noses are the most natural place to hang glasses, but why fake ones? Of course, these are rather large so you can be sure you won't lose them easily.</p>
+		</div>
+		<footer class="container-fluid"></footer>
+		
+		<script>
+			$("nav").load("nav.html");
+			$("footer").load("footer.html");
+			$('.carousel').carousel({
+				interval: 7000
+			});
+		</script>
+	</body>
+</html>

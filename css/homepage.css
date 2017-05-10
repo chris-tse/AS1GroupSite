@@ -1,0 +1,39 @@
+.homehero {
+	background: url("../images/homehero2.jpg");
+	background-size: cover;
+}
+
+.herotext {
+	color: white;
+	margin-top: 350px;
+	margin-bottom: 135px;
+	font-weight: 400;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 65px;
+}
+
+.hometext {
+	font-size: 25px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.img-circle {
+	width: 100%;
+	max-width:300px;
+	border-radius: 50%;
+}

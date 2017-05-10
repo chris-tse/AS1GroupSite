@@ -1,0 +1,61 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul.content > li {
+	font-weight: 300;
+}
+
+p, ul.content > li {
+	font-size: 19px;
+}
+
+footer.container-fluid {
+	background: #DDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer.container-fluid p {
+	margin: 0;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+.carousel-caption {
+	background: rgba(0,0,0,0.5);
+	padding-bottom:15px;
+	margin-bottom: 10px;
+	padding-top: 0;
+}
+
+.item {
+	background: #285479;
+}
+
+.itempage {
+	background: white;
+}
+
+.itempage h3 {
+	color: #2474BB;
+}
+
+.itempage h1 small {
+	font-style: italic;
+}
+
+@media only screen and (max-width: 767px) {
+	.carousel-caption {
+		margin-bottom: 20px;
+		padding-bottom: 0;
+	}
+
+	.carousel-caption h2 {
+		font-size: 25px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
